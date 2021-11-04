@@ -105,7 +105,6 @@ class Socket {
 
             socket.on("disconnect", (reason) => {
                 socket.leave(idsocket);
-                console.log("client se deconecto:" + reason);
             });
 
         })
